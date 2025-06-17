@@ -1,7 +1,5 @@
-x=0
-y=50
-for i in range(y+1):
-    x=x+i
-print(f"The sum of numbers from 1 to {y} is: ",x)
-#sample run:
-The sum of numbers from 1 to 50 is: 1275
+x=int(input("Enter a positive integer: "))
+sum=0
+for i in range(x+1):
+      sum=sum+i
+print(f"Sum of first {x} integers = ", sum)
